@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: com.gymsystem.AppTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 2.373 s <<< FAILURE! - in com.gymsystem.AppTest
+testGetAllUsers(com.gymsystem.AppTest)  Time elapsed: 2.05 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Only void methods can doNothing()!
+Example of correct use of doNothing():
+    doNothing().
+    doThrow(new RuntimeException())
+    .when(mock).someVoidMethod();
+Above means:
+someVoidMethod() does nothing the 1st time but throws an exception the 2nd time is called
+	at com.gymsystem.AppTest.setUp(AppTest.java:43)
+
+testUpdateUser(com.gymsystem.AppTest)  Time elapsed: 0.004 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Only void methods can doNothing()!
+Example of correct use of doNothing():
+    doNothing().
+    doThrow(new RuntimeException())
+    .when(mock).someVoidMethod();
+Above means:
+someVoidMethod() does nothing the 1st time but throws an exception the 2nd time is called
+	at com.gymsystem.AppTest.setUp(AppTest.java:43)
+
+testCreateUser(com.gymsystem.AppTest)  Time elapsed: 0.003 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Only void methods can doNothing()!
+Example of correct use of doNothing():
+    doNothing().
+    doThrow(new RuntimeException())
+    .when(mock).someVoidMethod();
+Above means:
+someVoidMethod() does nothing the 1st time but throws an exception the 2nd time is called
+	at com.gymsystem.AppTest.setUp(AppTest.java:43)
+
+testDeleteUser(com.gymsystem.AppTest)  Time elapsed: 0.002 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Only void methods can doNothing()!
+Example of correct use of doNothing():
+    doNothing().
+    doThrow(new RuntimeException())
+    .when(mock).someVoidMethod();
+Above means:
+someVoidMethod() does nothing the 1st time but throws an exception the 2nd time is called
+	at com.gymsystem.AppTest.setUp(AppTest.java:43)
+
+testGetUserById(com.gymsystem.AppTest)  Time elapsed: 0.003 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Only void methods can doNothing()!
+Example of correct use of doNothing():
+    doNothing().
+    doThrow(new RuntimeException())
+    .when(mock).someVoidMethod();
+Above means:
+someVoidMethod() does nothing the 1st time but throws an exception the 2nd time is called
+	at com.gymsystem.AppTest.setUp(AppTest.java:43)
+
